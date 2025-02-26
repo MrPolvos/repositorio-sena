@@ -100,7 +100,7 @@ function calcularSumaDivisores(numero) {
     return suma;
 }
 
-// Menu system
+
 function mostrarMenu() {
     let opcion;
     while(opcion !== "11") {
@@ -169,5 +169,5 @@ function mostrarMenu() {
     }
 }
 
-// Start the menu
+
 mostrarMenu();

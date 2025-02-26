@@ -153,7 +153,7 @@ while(opcion !== 3) {
 
     switch(opcion) {
         case "1": mostrarMenuTernarias(); break;
-        case "2": mostrarMenuDecisiones(); break;
+        case "2": menuDecisiones(); break;
         case "3": 
             opcion = 3;
             alert("Saliendo del menú...");
