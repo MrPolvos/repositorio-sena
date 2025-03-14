@@ -15,7 +15,7 @@ while(opcion !== 15)
                 } else {
                     salario = horas * 33000;
                 }
-                console.log(`Señor/a ${nombre}, el número de horas es ${horas} y su salario equivale a ${salario}`);
+                console.log(`Señor/a ${nombre}, el número de horas es ${horas} y su salario equivale a ${salario}`); 
 
                 break
         case "2" :

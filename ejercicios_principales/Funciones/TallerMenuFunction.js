@@ -1,4 +1,4 @@
-// Ternarias exercises
+// Ternarias 
 function verificarCafeConLeche() {
     let café = "Leche";
     café == "Leche" ? console.log("Es café con leche") : console.log("No es café con leche");
@@ -35,7 +35,7 @@ function determinarColorCafe() {
                 console.log("Ese color es " + ColorCafé + " , ¿Está seguro de estar tomando café?");
 }
 
-// Decisiones exercises
+// Decisiones 
 function verificarEscalaPH(GradosPh) {
     if (GradosPh >= 8) {
         console.log("Esta sustancia es básica, cuenta con " + GradosPh + " grados en la escala de PH");
@@ -110,7 +110,7 @@ function determinarSaborBebida(bebida, sabor) {
     }
 }
 
-// Menu handling functions
+
 function mostrarMenuTernarias() {
     let ternariaOpcion;
     while(ternariaOpcion !== "6") {
@@ -146,14 +146,14 @@ function mostrarMenuDecisiones() {
     }
 }
 
-// Main menu
+
 let opcion;
 while(opcion !== 3) {
     opcion = prompt("Escriba un número para elegir:\n1. Ejercicios con ternarias\n2. Ejercicios con decisiones\n3. Salir");
 
     switch(opcion) {
         case "1": mostrarMenuTernarias(); break;
-        case "2": menuDecisiones(); break;
+        case "2": mostrarMenuDecisiones(); break;
         case "3": 
             opcion = 3;
             alert("Saliendo del menú...");
