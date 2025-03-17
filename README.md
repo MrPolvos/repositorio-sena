@@ -1,4 +1,3 @@
 > [!NOTE]
-#Este es mi primer proyecto git
-#En taller y el seguimiento los ejercicios correspondientes se encuentran todos en el mismo archivo, teniendo el archivo taller nueve ejercicios, y, por el otro lado, Seguimiento1 catorce. 
-#Adicionalmente, el archivo Seguimiento1.js cuenta con un ejercicio que lee un input de la terminal al haber finalizado todas sus impresiones en la consola para determinar si el numero ingresado es par o impar por el cuarto ejercicio.
+Este es mi primer proyecto  git, esta organizado por documentos y ejercicios en carpetas de la misma manera, 
+dentro de la carpeta de ejercicios existen más carpetas que contienen los ejercicios de cada tema.
